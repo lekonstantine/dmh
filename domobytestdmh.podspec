@@ -39,7 +39,7 @@ Table header view from Domoby corp. Header view with nice animation and blur
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
@@ -65,7 +65,7 @@ Table header view from Domoby corp. Header view with nice animation and blur
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -93,7 +93,6 @@ Table header view from Domoby corp. Header view with nice animation and blur
 
   s.source_files  = "Classes", "Classes/*.swift"
   s.exclude_files = "Classes/Exclude"
-
   s.public_header_files = "Classes/**/*.h", "Classes/**/*.swift"
   
 
@@ -119,7 +118,8 @@ Table header view from Domoby corp. Header view with nice animation and blur
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
+
+  s.framework  = "Accelerate"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
