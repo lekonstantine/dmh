@@ -94,8 +94,8 @@ Table header view from Domoby corp. Header view with nice animation and blur
   s.source_files  = "Classes", "Classes/*.swift"
   s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
-
+  s.public_header_files = "Classes/**/*.h", "Classes/**/*.swift"
+  
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
